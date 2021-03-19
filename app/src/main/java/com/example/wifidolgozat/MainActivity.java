@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
         if (netInfo.isConnected()) {
             int ip_number = wifiInfo.getIpAddress();
             String ip = Formatter.formatIpAddress(ip_number);
-            tvInfo.setText("IP: "+ip);
+            tvInfo.setText("IP cím: " + ip);
         }
         else {
             tvInfo.setText("Nem csatlakoztál wifi hálózatra");
